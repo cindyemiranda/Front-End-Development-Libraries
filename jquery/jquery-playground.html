@@ -10,7 +10,25 @@
     $("#target1").prop("disabled", true);
     //Change Text Inside an Element Using jQuery
     $("#target4").html("<em>#target3</em>");
+    //Remove an Element Using jQuery
+    $("#target4").remove();
+    //Use appendTo to Move Elements with jQuery
+    $("#target2").appendTo("#right-well");
+    //Clone an Element Using jQuery
+    $("#target5").clone().appendTo("#left-well");
+    //Target the Parent of an Element Using jQuery
+    $("#target1").parent().css("background-color","red");
+    //Target the Children of an Element Using jQuery
+    $("#right-well").children().css("color", "orange");
+    //Target a Specific Child of an Element Using jQuery
+    $(".target:nth-child(2)").addClass("animated bounce");
+    //Target Even Elements Using jQuery
+    $(".target:even").addClass("animated shake");
+    //Use jQuery to Modify the Entire Page
+    $("body").addClass("animated hinge");
   });
+
+
 </script>
 
 <!-- Only change code above this line -->
