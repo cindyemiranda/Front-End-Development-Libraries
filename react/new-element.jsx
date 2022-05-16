@@ -34,3 +34,35 @@ const JSX3 = (
       <h1>Add a class to this div</h1>
     </div>
   );
+
+//Learn About Self-Closing JSX Tags
+const JSX5 = (
+    <div>
+      <h2>Welcome to React!</h2> <br />
+      <p>Be sure to close all tags!</p>
+      <hr/ >
+    </div>
+  );
+
+//Create a Stateless Functional Component
+const MyComponent = function() {
+  // Change code below this line
+  return(<div>Any text in this div</div>);
+
+
+  // Change code above this line
+}
+
+//Components in react
+class MyComponent1 extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    // Change code below this line
+    return(<div><h1>Hello React!</h1></div>);
+
+
+    // Change code above this line
+  }
+};
